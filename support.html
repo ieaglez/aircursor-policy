@@ -35,20 +35,28 @@
     a {
       color: #0a66ff;
     }
+
+    .contact-box {
+      border: 1px solid color-mix(in srgb, CanvasText 16%, transparent);
+      border-radius: 10px;
+      padding: 18px;
+      background: color-mix(in srgb, CanvasText 4%, transparent);
+    }
   </style>
 </head>
 <body>
   <h1>AirCursor Support</h1>
   <p>
-    AirCursor is a macOS utility for controlling the pointer with camera-based
-    two-hand gestures.
+    AirCursor is a macOS assistive input utility for people who benefit from
+    hands-free or reduced-contact pointer control. It uses camera-based
+    two-hand gestures to move, click, right-click, and drag the pointer.
   </p>
 
   <h2>Getting Started</h2>
   <ul>
     <li>Open AirCursor from the menu bar.</li>
     <li>Allow camera access when macOS asks.</li>
-    <li>Allow Accessibility access so AirCursor can move and click the pointer.</li>
+    <li>Allow Accessibility access so AirCursor can provide assistive pointer movement and click input.</li>
     <li>Use the setup wizard to select your camera, display, command region, and gesture sensitivity.</li>
   </ul>
 
@@ -60,12 +68,21 @@
   </ul>
 
   <h2>Contact</h2>
-  <p>
-    For support, open an issue at
-    <a href="https://github.com/ieaglez/aircursor-policy/issues">GitHub Issues</a>.
-    Do not include private camera images or other sensitive personal information
-    in public issues.
-  </p>
+  <div class="contact-box">
+    <p>
+      For questions, bug reports, accessibility feedback, or feature requests,
+      open a public support request:
+      <a href="https://github.com/ieaglez/aircursor-policy/issues/new?title=AirCursor%20Support%20Request">
+        AirCursor Support Request
+      </a>.
+    </p>
+    <p>
+      You can also browse existing support requests at
+      <a href="https://github.com/ieaglez/aircursor-policy/issues">GitHub Issues</a>.
+      Please do not include private camera images, medical details, or other
+      sensitive personal information in public issues.
+    </p>
+  </div>
 
   <p>
     <a href="./">Privacy Policy</a>
